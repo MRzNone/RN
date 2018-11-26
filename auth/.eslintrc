@@ -1,0 +1,20 @@
+{
+    "extends": ["react-native"],
+    "rules": {
+        "class-methods-use-this": 0,
+        "arrow-body-style": 0,
+        "no-console": 0,
+        "no-use-before-define": 0,
+        "react/prop-types": 0,
+        "import/prefer-default-export": 0,
+        "react/prefer-stateless-function": 0
+    },
+    "settings": {
+        "react": {
+            "createClass": "createReactClass",
+            "pragma": "React",
+            "version": "16.6.1",
+            "flowVersion": "0.53"
+        }
+    }
+}
