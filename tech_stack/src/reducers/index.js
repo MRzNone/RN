@@ -1,6 +1,8 @@
 import { combineReducers } from 'redux';
 import LibraryReducer from './LibraryRducer';
+import SelectionReducer from './SelectionReducer';
 
 export default combineReducers({
-  libraries: LibraryReducer
+  libraries: LibraryReducer,
+  selectedLibraryId: SelectionReducer,
 });
